@@ -1,0 +1,61 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+
+# Virtual environment
+server/newproject/myenv
+venv/
+env/
+*.venv/
+Pipfile.lock
+poetry.lock
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+wheelhouse/
+
+# Django specific
+*.sqlite3
+/db.sqlite3
+/media/
+staticfiles/
+local_settings.py
+.env
+*.log
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# VS Code & PyCharm settings
+.vscode/
+.idea/
+
+# MacOS & Linux
+.DS_Store
+*.swp
+*.swo
+
+# pytest cache
+.pytest_cache/
+
+# MyPy
+.mypy_cache/
+
+# Coverage reports
+.coverage
+htmlcov/
+
+# pipenv
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Celery
+celerybeat-schedule
+
+# Docker
+docker-compose.override.yml
